@@ -36,8 +36,8 @@ public class ProdutoTest {
     public void testValidacaoDoValorDeProdutoNaoPermitido() {
         // Fazer Login
         String mensagemApresentada = new LoginTela(app)
-                .preencherUsuario("admin")
-                .preencherSenha("admin")
+                .preencherUsuario("-")
+                .preencherSenha("-")
                 .submeterLogin()
                 .abrirTelaAdicaoProduto()
                 .preencherNomeProduto("Macbook Pro")
