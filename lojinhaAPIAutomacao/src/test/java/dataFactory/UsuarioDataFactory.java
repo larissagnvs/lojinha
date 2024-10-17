@@ -7,8 +7,8 @@ public class UsuarioDataFactory {
     public static UsuarioPojo criarUsuarioComum() {
 
         UsuarioPojo usuario = new UsuarioPojo();
-        usuario.setUsuarioLogin("larissapastor");
-        usuario.setUsuarioSenha("011216");
+        usuario.setUsuarioLogin("-");
+        usuario.setUsuarioSenha("-");
 
         return usuario;
     }
