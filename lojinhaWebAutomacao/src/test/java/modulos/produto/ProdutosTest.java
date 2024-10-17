@@ -39,8 +39,8 @@ public class ProdutosTest {
     @Test
     public void testNaoEPermitidoRegistrarProdutoComValorIgualAZero() {
         String mensagemApresentada = new LoginPage(navegador)
-                .informarOUsuario("larissapastor")
-                .informarASenha("011216")
+                .informarOUsuario("-")
+                .informarASenha("-")
                 .submeterFormularioDeLogin()
                 .acessarFormularioAdicaoNovoProduto()
                 .informarNomeDoProduto("Mackbook Pro")
@@ -57,8 +57,8 @@ public class ProdutosTest {
     @DisplayName("Nao e permitido registrar um produto com valor acima de 7.000,00")
     public void testNaoEPermitidoRegistrarProdutoAcimaDeSeteMil() {
         String mensagemApresentada = new LoginPage(navegador)
-                .informarOUsuario("larissapastor")
-                .informarASenha("011216")
+                .informarOUsuario("-")
+                .informarASenha("-")
                 .submeterFormularioDeLogin()
                 .acessarFormularioAdicaoNovoProduto()
                 .informarNomeDoProduto("Mackbook Pro")
@@ -74,8 +74,8 @@ public class ProdutosTest {
     @DisplayName("Posso adicionar produtos que estejam no limite de 0,01 e 7.000,01")
     public void testPossoAdicionarProdutoComValorDeUmCentavoASeteMilReais() {
         String mensagemApresentada = new LoginPage(navegador)
-                .informarOUsuario("larissapastor")
-                .informarASenha("011216")
+                .informarOUsuario("-")
+                .informarASenha("-")
                 .submeterFormularioDeLogin()
                 .acessarFormularioAdicaoNovoProduto()
                 .informarNomeDoProduto("Mackbook Pro")
@@ -91,8 +91,8 @@ public class ProdutosTest {
     @DisplayName("Posso adicionar produto no valor de 7.000,00")
     public void testPossoAdicionarProdutoComValorDeSeteMilReais() {
         String mensagemApresentada = new LoginPage(navegador)
-                .informarOUsuario("larissapastor")
-                .informarASenha("011216")
+                .informarOUsuario("-")
+                .informarASenha("-")
                 .submeterFormularioDeLogin()
                 .acessarFormularioAdicaoNovoProduto()
                 .informarNomeDoProduto("Mackbook Pro")
@@ -108,8 +108,8 @@ public class ProdutosTest {
     @DisplayName("Posso adicionar produto no valor de 0,01")
     public void testPossoAdicionarProdutoComValorDeUmCentavo() {
         String mensagemApresentada = new LoginPage(navegador)
-                .informarOUsuario("larissapastor")
-                .informarASenha("011216")
+                .informarOUsuario("-")
+                .informarASenha("-")
                 .submeterFormularioDeLogin()
                 .acessarFormularioAdicaoNovoProduto()
                 .informarNomeDoProduto("Mackbook Pro")
