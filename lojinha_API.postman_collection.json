@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"usuarioNome\": \"Larissa\",\r\n  \"usuarioLogin\": \"larissapastor\",\r\n  \"usuarioSenha\": \"011216\"\r\n}",
+					"raw": "{\r\n  \"usuarioNome\": \"Larissa\",\r\n  \"usuarioLogin\": \"-\",\r\n  \"usuarioSenha\": \"-\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -52,7 +52,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"usuarioLogin\": \"larissapastor\",\r\n  \"usuarioSenha\": \"011216\"\r\n}",
+					"raw": "{\r\n  \"usuarioLogin\": \"-\",\r\n  \"usuarioSenha\": \"-\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
